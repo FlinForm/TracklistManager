@@ -5,4 +5,5 @@
     <string name="genre">genre:</string>
     <string name="date">date:</string>
     <string name="songs">songs:</string>
+    <string name="add">add</string>
 </resources>

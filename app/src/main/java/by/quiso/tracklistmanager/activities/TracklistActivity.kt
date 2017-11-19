@@ -11,7 +11,6 @@ import kotlinx.android.synthetic.main.activity_tracklist.*
  *
  * @author Pavel Davydzenka
  */
-
 class TracklistActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

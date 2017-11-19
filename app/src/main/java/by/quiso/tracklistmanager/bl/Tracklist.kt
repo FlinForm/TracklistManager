@@ -7,7 +7,7 @@ package by.quiso.tracklistmanager.bl
  */
 class Tracklist(val name: String, val genre: Genre, val date: Long, val songs: ArrayList<Track>) {
     enum class Genre {
-        METAL, ROCK, POP, ELECTRO, MIXED
+        None, Metal, Rock, Pop, Electronic, Mixed
     }
 
     class Track(val name: String, val author: String, val content: String)
