@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TracklistManager</string>
     <string name="logo_image">Logo Image</string>
+    <string name="name">name:</string>
+    <string name="genre">genre:</string>
+    <string name="date">date:</string>
+    <string name="songs">songs:</string>
 </resources>

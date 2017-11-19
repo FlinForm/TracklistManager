@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.TracklistActivity" />
-        <activity android:name=".activities.CreateTracklistActivity" />
+        <activity android:name=".activities.NewTracklistActivity" />
     </application>
 
 </manifest>

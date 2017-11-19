@@ -3,6 +3,7 @@ package by.quiso.tracklistmanager.activities
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import by.quiso.tracklistmanager.R
 
 /**
@@ -19,9 +20,11 @@ class ApplicationActivity : AppCompatActivity() {
     }
 
     private fun init() {
+        Handler().postDelayed({ startTracklistActivity() }, 3000)
+    }
+
+    private fun startTracklistActivity() {
         startActivity(Intent(this, TracklistActivity::class.java))
         finish()
     }
-
-
 }
